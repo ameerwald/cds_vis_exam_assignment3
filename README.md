@@ -26,12 +26,17 @@ The instructions for the assignment are as follows:
 
 
 ## To run the scripts 
-As the dataset is too large to store in my repo, use the link above to access the data. Download and unzip the data. Then when running this, if on Ucloud for example, create a folder called  ```data``` along with the other folders in the assignment 3 repo. Then the code will run without making any changes. If the data is placed elsewhere, the path should be updated in the code. 
+As the dataset is too large to store in my repo, use the link above to access the data. Download and unzip the data. Then create a folder called  ```data``` within the assignment 3 folder, along with the other folders in the repo. Then the code will run without making any changes. If the data is placed elsewhere, then the path should be updated in the code.
 
-From the command line, run the following chunk of code. 
+1. Clone the repository, either on ucloud or something like worker2
+2. From the command line, at the /cds_vis_exam_assignment4/ folder level, run the following chunk of code. This will create a virtual environments, install the correct requirements, run the scripts, and deactivate the virtual environment when it is done. 
+
 ``` 
 bash setup.sh
 bash run.sh
 ```
 
-This has been run on an ubuntu system on ucloud and therefore could have issues when run another way.
+This has been tested on an ubuntu system on ucloud and therefore could have issues when run another way.
+
+## Discussion of Results 
+Overall the accuracy is quite high, 65% as seen in the classification report in the ```out``` folder. Not all categories perform well though, with the lowest being dupattas which the model only correctly identified 29% of the time. However this model was only trained over 2 epoches due to the computational power and time further training requires. If trained over more epochs, the overall accurary could improve including within the specific categories that are not performing well with this model. 
