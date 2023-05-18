@@ -1,8 +1,11 @@
 
 # Assignment 3 - Using pretrained CNNs for image classification
 
+## Github repo link 
+
 This assignment can be found at my github [repo](https://github.com/ameerwald/cds_vis_exam_assignment3).
 
+## Assignment description 
 
 For this assignment, the data is a fashion dataset, *Indo fashion* taken from this [Kaggle dataset](https://www.kaggle.com/datasets/validmodel/indo-fashion-dataset). 
 
