@@ -47,4 +47,4 @@ bash run.sh
 This has been tested on an ubuntu system on ucloud and therefore could have issues when run another way.
 
 ## Discussion of Results 
-Overall the accuracy is quite high, 65% as seen in the classification report in the ```out``` folder. Not all categories perform well though, with the lowest being dupattas which the model only correctly identified 29% of the time. However this model was only trained over 2 epoches due to the computational power and time further training requires. If trained over more epochs, the overall accurary could improve including within the specific categories that are not performing well with this model. 
+Overall the accuracy is quite high, 65% as seen in the classification report in the ```out``` folder. Not all categories perform well though, with the lowest being dupattas which the model only correctly identified 29% of the time. However this model was only trained over 2 epochs due to the computational power and time further training requires. If trained over more epochs, the overall accuracy could improve including within the specific categories that are not performing well with this model. 
