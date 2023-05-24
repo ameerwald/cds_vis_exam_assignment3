@@ -146,7 +146,7 @@ def train_model(datagen, train_data, val_data, test_data, model):
     batch_size = 64
     # fitting the model 
     H = model.fit(train_images,
-                batch_size=32,
+                batch_size=batch_size,
                 validation_data=val_images,
                 steps_per_epoch=train_images.samples // batch_size,
                 validation_steps=val_images.samples // batch_size,
